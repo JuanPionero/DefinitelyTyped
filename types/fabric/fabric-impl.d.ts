@@ -6757,3 +6757,4 @@ export interface Transform {
     theta: number;
     width: number;
 }
+export class EraserBrush extends PencilBrush { inverted: boolean; }
